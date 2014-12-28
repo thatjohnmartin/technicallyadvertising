@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+    {% for keyword in article.keywords %}
+        <meta name="keywords" contents="{{keyword}}" />
+    {% endfor %}
+
+    {% for description in article.description %}
+        <meta name="description" contents="{{description}}" />
+    {% endfor %}
+
+    {% for tag in article.tags %}
+        <meta name="tags" contents="{{tag}}" />
+    {% endfor %}
+
+{% endblock %}
+
+{% block content %}
+    <section id="content" class="body">
+        <div class="single-hentry">
+            {% if article.link %}
+                <header>
+                    <h2 class="entry-title link-post">
+                        <a href="{{ article.link }}" rel="bookmark">{{ article.title }}</a>
+                    </h2>
+                </header>
+            {% else %}
+                <header>
+                    <h2 class="entry-title">
+                        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
+                    </h2>
+                </header>
+                <footer class="post-info">
+                    <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
+                </footer><!-- /.post-info -->
+            {% endif %}
+            <div class="entry-content">
+                {{ article.content }}
+            </div><!-- /.entry-content -->
+        </div>
+    </section>
+{% endblock %}
