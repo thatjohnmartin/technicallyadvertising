@@ -1,9 +1,10 @@
-Title: The Cosmic Shame of Advertising Suitability
-Date: 2014-12-17 20:20
+Title: Dr Dobbs is Closing
+Date: 2014-12-28 22:27
 Tags: advertising
-Status: draft
+Link: http://www.drdobbs.com/architecture-and-design/farewell-dr-dobbs/240169421
 
-Yesterday, Dr Dobbs, a ... journal, [anounced that they were closing][closing].
+Last week, Dr Dobbs, the respected, elder statesman of programming journals, announced that they
+were closing:
 
 > Why would a well-known site, dearly loved by its readers and coming off a year of record page
 > views, be sunset by its owner?
@@ -18,5 +19,8 @@ Yesterday, Dr Dobbs, a ... journal, [anounced that they were closing][closing].
 > less effective than they once were. Given that I've never bought a single item by clicking on
 > an ad on a website, this conclusion seems correct in the small.
 
+This is too much whimper and not enough bang for such a great, old property. I'll miss it.
 
-[closing]: http://www.drdobbs.com/architecture-and-design/farewell-dr-dobbs/240169421
+It points at the larger cosmic shame of advertising suitability, which is that there is very little
+correlation between the quality or worthiness of a piece of content or property and its suitability
+for advertising.
