@@ -1,5 +1,6 @@
 Title: Gatekeepers: The Relative Care of Podcast Advertising
 Date: 2014-12-20 12:01
+Status: draft
 Tags: advertising
 
 I have a shitty commute, and so I end up listening to many of podcasts.
