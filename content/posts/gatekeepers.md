@@ -2,6 +2,8 @@ Title: Gatekeepers: The Relative Care of Podcast Advertising
 Date: 2014-12-20 12:01
 Tags: advertising
 
+I have a shitty commute, and so I end up listening to many of podcasts.
+
 http://sixcolors.com/post/2014/12/no-other-gatekeeper-but-me/
 
 > Being the sole proprietor of a web site means you’re not insulated. By accepting weekly sponsors
